@@ -1,0 +1,41 @@
+/* Navbar Styling */
+.navbar {
+  padding: 10px;
+}
+
+/* Navbar Links */
+.nav-link {
+  font-size: 1rem;
+  color: white !important;
+  text-decoration: none; /* Remove default underline */
+  padding: 8px 12px;
+}
+
+/* Active Link Styling - Only One is Underlined */
+.active-link {
+  font-weight: bold;
+}
+
+/* Signup Button - Background Fix */
+.signup-btn {
+  background-color: transparent !important; /* No default white background */
+  color: white !important;
+  border: 1px solid white;
+  padding: 6px 12px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+/* Signup Button Hover */
+
+
+/* Active Signup Button (Fix White Background Issue) */
+.active-signup {
+  background-color: white !important;
+  color: black !important;
+}
+.active-link {
+  background-color: white !important;
+  color: black !important;
+}
